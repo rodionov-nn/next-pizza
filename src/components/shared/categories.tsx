@@ -5,7 +5,7 @@ interface Props {
   className?: string;
 }
 
-const cats = ["Пиццы", "Комбо", "Закуски", "Коктейли", "Кофе", "Десерты"];
+const cats = ["Pizzas", "Combos", "Appetizers", "Cocktails", "Coffee", "Desserts"];
 const activeIndex = 0;
 
 export const Categories: React.FC<Props> = ({ className }) => {

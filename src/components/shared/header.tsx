@@ -18,21 +18,21 @@ export const Header: React.FC<Props> = ({ className }) => {
           <div>
             <h1 className="text-2xl uppercase font-black">Next Pizza</h1>
             <p className="text-sm text-gray-500 leading-3">
-              вкусней уже некуда
+              it couldn&apos;t be tastier
             </p>
           </div>
         </div>
         <div className="flex items-center gap-4">
           <Button variant="outline">
             <User />
-            Войти
+            Login
           </Button>
           <div>
             <Button
               variant="outline"
               className="group relative font-bold overflow-clip"
             >
-              <p>520 ₽</p>
+              <p>12 $</p>
               <span className="h-full w-[1px] bg-primary group-hover:bg-primary-foreground transition ease-in-out duration-300" />
               <div className="overflow-clip flex items-center">
                 <div className="flex items-center gap-2 translate-x-0 group-hover:translate-x-10 group-hover:opacity-0 group-hover:scale-50 transition ease-in-out duration-300">
